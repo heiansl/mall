@@ -5,8 +5,8 @@ spring:
     name: mall-ware
   datasource:
     username: root
-    password: mq0000
-    url: jdbc:mysql://10.43.1.52:3306/mall_wms?serverTimezone=Asia/Shanghai
+    password: root
+    url: jdbc:mysql://10.43.1.52:3306/gulimall_wms?serverTimezone=Asia/Shanghai
     driver-class-name: com.mysql.cj.jdbc.Driver
   cloud:
     nacos:

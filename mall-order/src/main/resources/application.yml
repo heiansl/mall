@@ -1,4 +1,4 @@
-ipAddr: 10.43.1.52
+ipAddr: 120.79.58.118
 server:
   port: 9000
 spring:
@@ -13,8 +13,8 @@ spring:
     name: mall-order
   datasource:
     username: root
-    password: mq0000
-    url: jdbc:mysql://${ipAddr}:3306/mall_oms
+    password: root
+    url: jdbc:mysql://${ipAddr}:3306/gulimall_oms
     driver-class-name: com.mysql.cj.jdbc.Driver
   thymeleaf:
     cache: false
